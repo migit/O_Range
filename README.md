@@ -1,9 +1,6 @@
-ESP32 Two-Wheel Balancing Robot with AI-Tuned PID Control
- 
-Introduction
-Welcome to the ESP32 Two-Wheel Balancing Robot project! This repository contains code and instructions for building a self-balancing robot using the ESP32 microcontroller, BTS7960 motor drivers, and an MPU6050 IMU. Inspired by Segway-like designs, the robot maintains balance through a PID controller, with wireless tuning via a sci-fi-themed Processing GUI over WiFi. The latest upgrade introduces AI-based PID tuning using Differential Evolution in Python, simulating an inverted pendulum to optimize Kp, Ki, and Kd values before real-world deployment.
-This project is perfect for robotics enthusiasts diving into control systems, IoT, and machine learning. The robot corrects tilts dynamically, and the AI tuning reduces manual effort. Whether you're a beginner or advanced maker, this guide will help you build, tune, and extend the robot. Let's get started!
-Features
+
+Story
+I built this O_rane to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., Kp ≈ 200, Ki ≈ 0, Kd ≈ 1.6). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly. The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
 Hardware: ESP32 DevKit, MPU6050 IMU, BTS7960 drivers, two DC motors.
 Wireless Control: WiFi-based communication with a Processing GUI for real-time monitoring and PID tuning.
@@ -11,8 +8,6 @@ AI Tuning: Python script using Differential Evolution to optimize PID parameters
 GUI: Sci-fi-themed Processing interface with neon graphs, sliders, and status indicators.
 Scalable: Add encoders, Bluetooth, or real-time ML for advanced control.
 
-Story
-I built this robot to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., Kp ≈ 200, Ki ≈ 0, Kd ≈ 1.6). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly. The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 Materials
 
 ESP32 DevKit V1 (or similar)
@@ -25,24 +20,7 @@ Battery Pack (7.4V–12V LiPo, high-capacity)
 Jumper Wires, Perfboard (for secure connections)
 USB Cable (for initial programming)
 Computer with Python 3 (for AI tuning, with NumPy, SciPy, python-control)
-Cost: ~$25–40 (AliExpress/Amazon)
 
-Schematics
-
-MPU6050: SDA → ESP32 GPIO21, SCL → GPIO22, VCC → 3.3V, GND → GND.
-BTS7960 Motor 1 (Left): RPWM → GPIO25, LPWM → GPIO26, EN (R_EN & L_EN) → GPIO33 or 5V, VCC → 5V, GND → GND.
-BTS7960 Motor 2 (Right): RPWM → GPIO27, LPWM → GPIO14, EN → GPIO32 or 5V, VCC → 5V, GND → GND.
-Power: Battery to BTS7960 VM (motors), ESP32 VIN via 5V regulator.
-Motors: Connect to BTS7960 outputs.
-
-Use Fritzing for a diagram: ESP32 central, MPU6050 top, BTS7960 modules on sides. Separate motor and logic grounds to reduce noise.
-Build Steps
-
-Assemble Chassis: Mount motors and wheels, place battery/ESP32 high for center of gravity.
-Wire Electronics: Connect MPU6050 (I2C), BTS7960 (PWM + enable), and power. Solder for reliability.
-Power Setup: Use a buck converter for 5V to ESP32. Test voltages.
-Test Components: Upload a sketch to read MPU6050 angles and test motors manually.
-WiFi Setup: Note ESP32’s IP from Serial Monitor for Processing GUI.
 
 Installation
 Arduino IDE
@@ -72,7 +50,7 @@ Run ai_pid_tuner.py to get optimized PID values.
 
 Code
 Arduino Sketch
-Located in ESP32_Balancing_Robot_WiFi_BTS7960.ino. Handles:
+Located in O_range_Balancing_Robot_WiFi.ino. Handles:
 
 MPU6050 angle reading
 PID control for balancing
@@ -165,4 +143,3 @@ Share your build on Hackster.io or GitHub!
 
 Credits
 Thanks to Arduino, Processing, and SciPy communities, plus control theory researchers for GA-PID insights.
-Happy building! 🚀
