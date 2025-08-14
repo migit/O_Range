@@ -2,6 +2,8 @@
 # Story
 I built this robot named O_Range to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., Kp ≈ 200, Ki ≈ 0, Kd ≈ 1.6). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly. The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
+![O_Range balancing Bot](https://hackster.imgix.net/uploads/attachments/1874478/_qXWhfp0v36.blob?auto=compress%2Cformat&w=900&h=675&fit=min)
+
 Hardware: ESP32 DevKit, MPU6050 IMU, BTS7960 drivers, two DC motors.
 Wireless Control: WiFi-based communication with a Processing GUI for real-time monitoring and PID tuning.
 AI Tuning: Python script using Differential Evolution to optimize PID parameters in a simulated inverted pendulum.
