@@ -1,10 +1,11 @@
+/*Mikrollere@Hackster.io*/
 #include <WiFi.h>
 #include <MPU6050.h>
 #include <PID_v1.h>
 
 // WiFi credentials
-const char* ssid = "YOUR_WIFI_SSID";  // Replace
-const char* password = "YOUR_WIFI_PASSWORD";  // Replace
+const char* ssid = "YOUR_WIFI_SSID";  // Replace with your hotspot name
+const char* password = "YOUR_WIFI_PASSWORD";  // Replace with yout wifi passwords
 
 // TCP server
 WiFiServer server(80);
