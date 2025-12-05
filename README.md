@@ -1,4 +1,4 @@
-# O_Range — Budget-Friendly Self-Balancing Robot with AI-Enhanced PID Tuning 🤖
+# O_Range — Budget-Friendly Self-Balancing Robot with AI-Enhanced PID Tuning 
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 [![Languages](https://img.shields.io/badge/languages-C%2B%2B%20%7C%20Python%20%7C%20Processing-green.svg)](#tech-stack)
@@ -172,4 +172,4 @@ This project is licensed under the **MIT License**. Modify, distribute, and use 
 
 ---
 
-**Happy balancing! ⚡🤖**
+**You go balance your robot now! ⚡🤖**
