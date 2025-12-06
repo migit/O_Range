@@ -5,7 +5,7 @@
 
 ---
 
-## 📖 Story
+## Story
 
 I built this robot named **O_Range** to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., `Kp ≈ 200`, `Ki ≈ 0`, `Kd ≈ 1.6`). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly.
 
@@ -23,7 +23,7 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
 
 ---
 
-## 📦 Materials
+## Materials
 
 * ESP32 DevKit V1 (or similar)
 * MPU6050 (Gyroscope + Accelerometer IMU)
@@ -38,7 +38,7 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
 
 ---
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 **Arduino IDE**:
 
@@ -73,7 +73,7 @@ pip3 install numpy scipy matplotlib control
 
 ---
 
-## 💻 Code Overview
+## Code Overview
 
 **Arduino Sketch** (`O_range_Balancing_Robot_WiFi.ino`):
 
@@ -132,7 +132,7 @@ print("Optimized PID: Kp=%.2f, Ki=%.2f, Kd=%.2f"%tuple(result.x))
 
 ---
 
-## ⚙️ Usage
+## Usage
 
 1. Upload Arduino sketch to ESP32
 2. Note ESP32 IP from Serial Monitor
@@ -142,7 +142,7 @@ print("Optimized PID: Kp=%.2f, Ki=%.2f, Kd=%.2f"%tuple(result.x))
 
 ---
 
-## 🔮 Future Works
+## Future Works
 
 * Add motor encoders for velocity feedback
 * Implement real-time ML on ESP32 (TensorFlow Lite)
@@ -150,7 +150,7 @@ print("Optimized PID: Kp=%.2f, Ki=%.2f, Kd=%.2f"%tuple(result.x))
 
 ---
 
-## 📚 References
+## References
 
 * Optimize PID Controller using Genetic Algorithm for Robot Manipulators (arXiv, 2025)
 * Auto-Tuning PID Controller Based on Genetic Algorithm (IntechOpen, 2023)
@@ -160,16 +160,12 @@ print("Optimized PID: Kp=%.2f, Ki=%.2f, Kd=%.2f"%tuple(result.x))
 
 ---
 
-## 🤝 Credits
+## Credits
 
 Thanks to Arduino, Processing, and SciPy communities, plus GA-PID research for inspiration.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**. Modify, distribute, and use with attribution.
-
----
-
-**You go balance your robot now! ⚡🤖**
