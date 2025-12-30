@@ -10,9 +10,56 @@ I built this robot named **O_Range** to explore control theory and IoT on a budg
 
 The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
-  <img src="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb" width="30%" />
-  <img src="https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190" width="30%" />
-  <img src="https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d" width="30%" />
+  <table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb">
+        <img src="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Front View</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190">
+        <img src="https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Side View</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d">
+        <img src="https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Internal Layout</b></sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="IMAGE_URL_4">
+        <img src="IMAGE_URL_4" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Electronics</b></sub>
+    </td>
+    <td align="center">
+      <a href="IMAGE_URL_5">
+        <img src="IMAGE_URL_5" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Assembly</b></sub>
+    </td>
+    <td align="center">
+      <a href="IMAGE_URL_6">
+        <img src="IMAGE_URL_6" width="100%" />
+      </a>
+      <br/>
+      <sub><b>Final Build</b></sub>
+    </td>
+  </tr>
+</table>
+
 
 
 **Highlights**:
