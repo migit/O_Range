@@ -23,21 +23,21 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
         <img src="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb" width="100%" />
       </a>
       <br/>
-      <sub><b>Front View</b></sub>
+      <sub><b>Side</b></sub>
     </td>
     <td align="center">
       <a href="https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190">
         <img src="https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190" width="100%" />
       </a>
       <br/>
-      <sub><b>Side View</b></sub>
+      <sub><b>Front</b></sub>
     </td>
     <td align="center">
       <a href="https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d">
         <img src="https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d" width="100%" />
       </a>
       <br/>
-      <sub><b>Internal Layout</b></sub>
+      <sub><b>Back</b></sub>
     </td>
   </tr>
 
