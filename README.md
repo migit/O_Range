@@ -41,7 +41,7 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
     </td>
   </tr>
 
-  <tr>
+<!--  <tr>
     <td align="center">
       <a href="IMAGE_URL_4">
         <img src="IMAGE_URL_4" width="100%" />
@@ -63,7 +63,7 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
       <br/>
       <sub><b>Final Build</b></sub>
     </td>
-  </tr>
+  </tr> -->
 </table>
 
 
