@@ -11,6 +11,9 @@ I built this robot named **O_Range** to explore control theory and IoT on a budg
 The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
 ![O\_Range balancing Bot](https://hackster.imgix.net/uploads/attachments/1874478/_qXWhfp0v36.blob?auto=compress%2Cformat\&w=900\&h=675\&fit=min)
+![20250813_190130_cRze3wHir3](https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb)
+![20250813_190154_xi42kVpOFT](https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190)
+![20250813_190220_lY4urxUoSQ](https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d)
 
 **Highlights**:
 
@@ -57,12 +60,15 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
 1. Install Python 3.9+: [python.org/downloads](https://www.python.org/downloads/)
 2. Set up a virtual environment:
 
+
 ```bash
-python3 -m venv control_env
+python3 -m venv control_env![20250813_190154_xi42kVpOFT](https://github.com/user-attachments/assets/9f2bdb2c-4491-42c0-8631-ef9eea49b7b7)
+
 source control_env/bin/activate  # Windows: control_env\Scripts\activate
 ```
 
 3. Install dependencies:
+
 
 ```bash
 pip3 install numpy scipy matplotlib control
