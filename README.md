@@ -10,15 +10,11 @@ I built this robot named **O_Range** to explore control theory and IoT on a budg
 
 The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
-|                                                                                                               | 
-|:-------------------------------------------------------------------------------------------------------------:|
-| ![20250813_190130_cRze3wHir3](https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb | width=50) |  |                                                                                                               |
-|:-------------------------------------------------------------------------------------------------------------:|
-| ![20250813_190154_xi42kVpOFT](https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190 | 50X50)|  |                                                                                                               |
-|:-------------------------------------------------------------------------------------------------------------:|
-| ![20250813_190220_lY4urxUoSQ](https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d | 50X50)|
-
-
+| Image |
+|:-----:|
+| ![Image 1](https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb) |
+| ![Image 2](https://github.com/user-attachments/assets/ea26151e-7a25-4ae7-bd1c-7a5db88d7190) |
+| ![Image 3](https://github.com/user-attachments/assets/93246395-bc40-4c87-a073-9017291b710d) |
 
 
 
