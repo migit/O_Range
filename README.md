@@ -7,35 +7,9 @@
 ![AI PID](https://img.shields.io/badge/PID-AI%20Optimized-orange)
 ![Control Systems](https://img.shields.io/badge/domain-Control%20Systems-blue)
 
-
 ---
 
-## Abstract
-
-O_Range is an open-source self-balancing robotic platform designed to explore 
-practical control theory, embedded systems, and optimization techniques in a 
-real-world setting. The project models the robot as an inverted pendulum and 
-implements a closed-loop PID controller running on an ESP32 microcontroller.
-
-Unlike traditional balancing robots that rely on manual gain tuning, O_Range 
-integrates AI-assisted optimization techniques to automatically identify 
-stable and performant PID parameters. A Python-based simulation environment 
-leverages evolutionary optimization algorithms to tune controller gains, 
-which are then deployed to the physical system for validation.
-
-The platform combines embedded firmware, real-time sensor feedback, and 
-external optimization tools, making it suitable for experimentation, 
-education, and research in robotics and control systems. O_Range aims to 
-bridge the gap between theoretical control models and physical robotic 
-implementation using accessible, low-cost hardware.
-
-## Story
-
-I built this robot named **O_Range** to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., `Kp ≈ 200`, `Ki ≈ 0`, `Kd ≈ 1.6`). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly.
-
-The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
-
-  <table align="center">
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb">
@@ -86,6 +60,30 @@ The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterati
 </table>
 
 
+## Abstract
+
+O_Range is an open-source self-balancing robotic platform designed to explore 
+practical control theory, embedded systems, and optimization techniques in a 
+real-world setting. The project models the robot as an inverted pendulum and 
+implements a closed-loop PID controller running on an ESP32 microcontroller.
+
+Unlike traditional balancing robots that rely on manual gain tuning, O_Range 
+integrates AI-assisted optimization techniques to automatically identify 
+stable and performant PID parameters. A Python-based simulation environment 
+leverages evolutionary optimization algorithms to tune controller gains, 
+which are then deployed to the physical system for validation.
+
+The platform combines embedded firmware, real-time sensor feedback, and 
+external optimization tools, making it suitable for experimentation, 
+education, and research in robotics and control systems. O_Range aims to 
+bridge the gap between theoretical control models and physical robotic 
+implementation using accessible, low-cost hardware.
+
+## Story
+
+I built this robot named **O_Range** to explore control theory and IoT on a budget. Initially, manual PID tuning via sliders was effective but time-consuming. Switching to BTS7960 drivers added power (up to 43A), and WiFi freed me from USB cables. The real breakthrough was AI-based tuning: I modeled the robot as an inverted pendulum in Python, using SciPy's Differential Evolution to find optimal PID values (e.g., `Kp ≈ 200`, `Ki ≈ 0`, `Kd ≈ 1.6`). These stabilized the simulation, and with minor tweaks, the real robot balanced smoothly.
+
+The Processing GUI lets me monitor tilt and fine-tune wirelessly, making iterations fast and fun!
 
 **Highlights**:
 
