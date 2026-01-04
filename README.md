@@ -7,6 +7,8 @@
 ![AI PID](https://img.shields.io/badge/PID-AI%20Optimized-orange)
 ![Control Systems](https://img.shields.io/badge/domain-Control%20Systems-blue)
 
+[![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
+
 ---
 
 <table align="center">
@@ -60,8 +62,6 @@
     </td>
   </tr> -->
 </table>
-
-  [![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
   
 ## Abstract
 
