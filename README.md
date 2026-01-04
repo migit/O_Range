@@ -35,27 +35,8 @@
   </tr>
 
 
-<a href="https://www.youtube.com/watch?v=v7Byqst6wbM" target="_blank"
-   style="position: relative; display: inline-block; width: 320px;">
 
-  <!-- Thumbnail -->
-  <img src="https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg"
-       alt="YouTube Video"
-       style="width: 100%; display: block; border-radius: 8px;">
-
-  <!-- Overlay -->
-  <div style="
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-       pointer-events: none;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg"
-         alt="Play"
-         style="width: 64px;">
-  </div>
-
-</a>
+[![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/0.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
 
 
   
