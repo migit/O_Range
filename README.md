@@ -34,6 +34,21 @@
     </td>
   </tr>
 
+
+<div style="display: inline-flex; align-items: center;">
+  <!-- Video Thumbnail -->
+  <a href="
+https://youtube.com/clip/Ugkxi-WNJcuTDSJPI4yp2a_OCl7J1O74gf-v?si=v6aXxMYA4EjYE6s4" target="_blank" style="display: inline-block;">
+    <img src="https://img.youtube.com/vi/v7Byqst6wbM/0.jpg" style="width: 100%; display: block;">
+  </a>
+
+  <!-- Play Button -->
+  <a href="https://www.youtube.com/watch?v=v7Byqst6wbM" target="_blank" style="display: inline-block;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg" 
+         style="width: 50px; height: auto; margin-left: 5px;">
+  </a>
+</div>
+  
 <!--  <tr>
     <td align="center">
       <a href="IMAGE_URL_4">
