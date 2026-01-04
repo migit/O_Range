@@ -10,9 +10,9 @@
 ---
 
 <table align="center">
-  <tr>
-    [![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
+      [![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
 
+  <tr>
     <td align="center">
       <a href="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb">
         <img src="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb" width="100%" />
