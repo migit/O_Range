@@ -7,7 +7,9 @@
 ![AI PID](https://img.shields.io/badge/PID-AI%20Optimized-orange)
 ![Control Systems](https://img.shields.io/badge/domain-Control%20Systems-blue)
 
-[![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
+<a href="https://www.youtube.com/watch?v=v7Byqst6wbM">
+  <img src="https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg" width="100%">
+</a>
 
 ---
 
