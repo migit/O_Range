@@ -35,8 +35,7 @@
   </tr>
 
 
-
-▶️ **[Watch demo video on YouTube](https://www.youtube.com/watch?v=v7Byqst6wbM)**
+[![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
 
   
 <!--  <tr>
