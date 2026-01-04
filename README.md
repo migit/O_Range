@@ -11,7 +11,6 @@
 
 <table align="center">
   <tr>
-          [![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
     <td align="center">
       <a href="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb">
         <img src="https://github.com/user-attachments/assets/a4e3065c-3613-4de9-91ed-de61130422eb" width="100%" />
@@ -62,7 +61,8 @@
   </tr> -->
 </table>
 
-
+  [![Watch the video](https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg)](https://www.youtube.com/watch?v=v7Byqst6wbM)
+  
 ## Abstract
 
 O_Range is an open-source self-balancing robotic platform designed to explore 
