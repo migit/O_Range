@@ -1,11 +1,14 @@
 # O_Range — Budget-Friendly Self-Balancing Robot with AI-Enhanced PID Tuning 
 
-![License](https://img.shields.io/github/license/migit/O_Range)
-![Release](https://img.shields.io/github/v/release/migit/O_Range)
-![Last Commit](https://img.shields.io/github/last-commit/migit/O_Range)
-![ESP32](https://img.shields.io/badge/platform-ESP32-blue)
 ![AI PID](https://img.shields.io/badge/PID-AI%20Optimized-orange)
 ![Control Systems](https://img.shields.io/badge/domain-Control%20Systems-blue)
+![ESP32](https://img.shields.io/badge/platform-ESP32-blue)
+![Release](https://img.shields.io/github/v/release/migit/O_Range)
+![License](https://img.shields.io/github/license/migit/O_Range)
+![Last Commit](https://img.shields.io/github/last-commit/migit/O_Range)
+
+
+
 
 Click image to play
 <a href="https://youtube.com/clip/Ugkxi-WNJcuTDSJPI4yp2a_OCl7J1O74gf-v?si=v6aXxMYA4EjYE6s4">
