@@ -10,7 +10,7 @@
 
 Click image to play
 <a href="https://www.youtube.com/watch?v=INF7GOPiY0w">
-  <img src="https://img.youtube.com/vi/v7Byqst6wbM/hqdefault.jpg" width="100%">
+  <img src="https://img.youtube.com/vi/INF7GOPiY0w/hqdefault.jpg" width="100%">
 </a>
 
 ---
